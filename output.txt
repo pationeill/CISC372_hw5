@@ -1,0 +1,14 @@
+Script started on 2021-05-06 22:07:24-04:00
+]0;oneillp@br011:~/CISC372_hw5[oneillp@r004 CISC372_hw5]$ gcc -g image.c -o image -lm -fopnemp[C[1@_[1@o[1@m[1@p
+[01m[Kgcc:[m[K [01;31m[Kerror: [m[Kunrecognized command line option ‘[01m[K-fopnemp[m[K’; did you mean ‘[01m[K-fopenmp[m[K’?
+]0;oneillp@br011:~/CISC372_hw5[oneillp@r004 CISC372_hw5]$ gcc -g image_omp.c -o image -lm -fopnemp[K[K[K[Kenmp
+]0;oneillp@br011:~/CISC372_hw5[oneillp@r004 CISC372_hw5]$ image./[K[K[K[K[K[K[K./image pic1.jpg edge
+Took 7 seconds
+]0;oneillp@br011:~/CISC372_hw5[oneillp@r004 CISC372_hw5]$ ./image pic1.jpg edgegcc -g image_omp.c -o image -lm -fopenmp[K[K[K[K[K[K[Kp[Klpthread
+]0;oneillp@br011:~/CISC372_hw5[oneillp@r004 CISC372_hw5]$ gcc -g image_omp.c -o image -lm -lpthread[C[1P[1P[1P[1@p[1@t
+]0;oneillp@br011:~/CISC372_hw5[oneillp@r004 CISC372_hw5]$ ./image pic2.jpg[K[K[K[K[K1.jpg edge
+Took 7 seconds
+]0;oneillp@br011:~/CISC372_hw5[oneillp@r004 CISC372_hw5]$ exit
+exit
+
+Script done on 2021-05-06 22:11:05-04:00
